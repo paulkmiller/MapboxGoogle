@@ -38,11 +38,17 @@ h1 {
   font-size:32px;
   margin-top:20px;
   padding:20px;
+  line-height: 20px;
 }
 
 h1 > span {
   color:#636466;
   margin-left:20px;
+}
+
+.subheader {
+  color: #636466;
+  line-height: 50px;
 }
 
 strong {
