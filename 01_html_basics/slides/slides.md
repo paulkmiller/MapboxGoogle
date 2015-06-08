@@ -2,7 +2,8 @@
 
 * Paul Miller
 * I'm the in-house Front End Web Developer here at 0ptimus.
-* You can email me anytime: [paul@0ptimus.com](mailto:paul@0ptimus.com).
+* You can email me anytime: [paul@0ptimus.com](mailto:paul@0ptimus.com)
+* You can call me anytime: (703) 989.0535
 
 
 ---
@@ -10,7 +11,7 @@
 ## Agenda
 
 * Introduction
-* Sublime Text
+* Atom
 *	HTML Tag Review
 *	GA Press Release Codealong
 *	Lab Time
@@ -74,31 +75,8 @@ Every web page meant for public use needs a server, but that doesn't necessarily
 
 ## Coding Environment
 
-What do our computers and a web server have in common?
-
---
-
-**A URL**
-
-![A url](../img/unit_1/server-path.png)
-
---
-**A finder window**
-
-![A finder window](../img/unit_1/file-path.png)
-
---
-
-**OMG! They're the same!**
-
-![OMG they're the same](../img/unit_1/file-path2.png)
-
---
-
 ** Without a backend, the Web is just files in folders on a computer somewhere.**
 
-Note:
-Let's be that somewhere!
 
 --
 
@@ -137,15 +115,15 @@ Start typing and hit **tab** to autocomplete!
 ---
 
 
-##Sublime
+##Atom
 
-![Sublime](../img/icons/sublime.png)
+![Atom](../img/icons/atom.png)
 
 --
 
-Sublime is *fantastic* and has an unlimited free trial
+Atom is *fantastic*, *modular*, *free*, and *constantly updated*
 
-http://www.sublimetext.com/3
+https://atom.io/
 
 Open the .dmg file and drag the icon to your applications folder.
 Windows: Run installer
@@ -154,12 +132,12 @@ Windows: Run installer
 
 ## Opening Files in Your Browser
 
-1.  Make a folder called `hello`. Drag `hello` onto the Sublime Text icon in your dock to open it.
+1.  Make a folder called `hello`. Drag `hello` onto the Atom icon in your dock to open it.
 1.  Right-click on `hello` in the sidebar, select `New File...`.
 1.  Call it index.html (Look at the bottom of the app for the text field where you name the file).
 1.  Open the file and type `<h1>hello, world!</h1>`
 1.  Save the file. (`cmd+s` on mac, `ctrl+s` on windows/linux)
-1.  Right-click `index.html` in the Sublime sidebar and choose `Open In Browser`.
+1.  Right-click `index.html` in the Atom sidebar and choose `Open In Browser`.
 
 ---
 
