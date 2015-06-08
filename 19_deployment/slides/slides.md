@@ -1,10 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-# Deployment
-
-
-----
-
 ## So...
 ## How do get my website on the Internet?
 

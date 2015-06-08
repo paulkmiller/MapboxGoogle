@@ -1,10 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - Javascript Basics
-
----
-
-
 ##Agenda
 
 * Questions

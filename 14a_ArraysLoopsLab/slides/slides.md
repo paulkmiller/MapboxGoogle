@@ -1,10 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - Logic and Arrays
-
----
-
-
 ##Agenda
 
 * If Statements
@@ -59,7 +52,7 @@ if (someNumber > 10) {
 
 ##Loops
 
-Loops execute repetitive code. 
+Loops execute repetitive code.
 
 --
 
@@ -86,7 +79,7 @@ for (var i = 0; i < 5; i++) {
 
 ## While Loops
 
-You use while loops if you don't know how often you'll loop. In some cases, the loop will never occur. 
+You use while loops if you don't know how often you'll loop. In some cases, the loop will never occur.
 
 ```
 var x = 0;
@@ -116,7 +109,7 @@ do {
 
 What is an array?
 
-What if we had a collection of images that we wanted to display to the screen one at a time? How could we store all the images? 
+What if we had a collection of images that we wanted to display to the screen one at a time? How could we store all the images?
 
 ---
 
@@ -135,7 +128,7 @@ var myArr = new Array();
 var myArr = [ ];
 
 *	declaring an empty array using literal notation.
-	
+
 ---
 
 ##Declaring Arrays
@@ -144,13 +137,13 @@ myArr = ['Hello', 54.3, true];
 
 *	Arrays are filled with elements: i.e. myArr3 = [element, anotherElement];
 *	Elements can be strings, numbers, or booleans.
-	
+
 
 ---
 
 ##Declaring Arrays
-	
-	
+
+
 If you leave a blank spot in an array it creates a blank shelf space (undefined) placeholder.
 
 ---
@@ -180,7 +173,7 @@ Array elements can be fetched by their index number (starts from 0).
 	console.log(myArr[1]); //prints undefined
 	console.log(myArr[2]); //prints 54.3
 	console.log(myArr[3]); //prints true
-	
+
 ---
 
 
@@ -197,11 +190,11 @@ We can insert new values into any space in the array using the positions index.
 ##Arrays Indexing
 
 We can overwrite all the elements of an array simply by giving the array new values or by setting an array equal to a different array.
-```	
+```
 	var fruits = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 	var myArr=[1,2,3];
 	myArr = fruits;
-	
+
 	console.log(myArr); //prints Apples, Oranges, Pears, Bananas
 ```
 ---
@@ -209,7 +202,7 @@ We can overwrite all the elements of an array simply by giving the array new val
 ##Array Length
 
 What if I would like to know how long my array is (how many elements)?
-	
+
 	console.log(myArr.length); //prints 4
 
 ---
@@ -247,6 +240,3 @@ As always, code we want to execute goes between curly braces
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 ##Carousel
-
-
-

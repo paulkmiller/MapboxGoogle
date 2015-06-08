@@ -1,9 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - jQuery Plugins
-
-----
-
 # jQuery Plugins
 
 * What are they?

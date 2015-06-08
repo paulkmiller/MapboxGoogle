@@ -1,9 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - Forms & Plugins
-
-----
-
 ##Forms
 
 How we can get data from users.

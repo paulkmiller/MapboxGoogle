@@ -1,10 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - CSS Basics
-
----
-
-
 ##Agenda
 
 *	HTML Review

@@ -1,9 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - Objects
-
-----
-
 ##Objects
 
 ###aka Maps, hashes, dictionaries, associative arrays
@@ -34,8 +28,8 @@ Any key (that's a string) maps to any value
 
         someBoolean: true,
 
-        aFunnnNnNnnnNnNNnction: function (anArgument) 
-          { 
+        aFunnnNnNnnnNnNNnction: function (anArgument)
+          {
             console.log("I do stuff with my arguments!", anArgument)
           },
 
@@ -50,7 +44,7 @@ Any key (that's a string) maps to any value
 
 ##Accessing an Object
 
-    var answer = { 
+    var answer = {
       value: 42,
       description: "The answer to life, the universe, and everything",
       question: null
@@ -160,7 +154,7 @@ When you have data that is
 
 We're going to take a vote, like civilized gorillas.
 
-We will split the class up if that seems best - it's not all or nothing. 
+We will split the class up if that seems best - it's not all or nothing.
 
 1. Free lab time with instructors
   * Work on your final project

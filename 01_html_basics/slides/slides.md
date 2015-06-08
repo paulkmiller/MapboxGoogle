@@ -1,42 +1,8 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-# Welcome to FEWD!
-
----
-
 ## Hi! I'm...
 
-* Lauren Burton
-* I'm the director of interactive strategies at [Case Foundation](http://casefoundation.org) and [Revolution](http://revolution.com).
-* You can email me anytime: [laurenwburton@gmail.com](mailto:laurenwburton@gmail.com).
-* I'm [@laurenwesley08](http://twitter.com/laurenwesley08) on Twitter.
-
---
-
-## Also, meet...
-
-* Nick Grace
-* I'm the front end development manager at [JBS International, Inc](http://www.jbsinternational.com).
-* You can email me anytime: [nickrgrace@gmail.com](mailto:nickrgrace@gmail.com).
-* I'm [@nickgrace](http://twitter.com/nickgrace) just about everywhere.
-
---
-
-## And Your Trusty TA...
-
-* Matthew Nahmias
-* I'm a front end developer at [Reingold](http://www.reingold.com).
-* You can email me anytime: [matthew.nahmias@gmail.com](mailto:matthew.nahmias@gmail.com).
-* I'm [@matthewnahmias](http://twitter.com/matthewnahmias) just about everywhere.
-
---
-
-## Also, meet...
-
 * Paul Miller
-* I'm a front end developer at [TransitLabs](http://transitlabs.com).
-* You can email me anytime: [pmillerk88@gmail.com](mailto:pmillerk88@gmail.com).
-* I'm [@nodairyfruit](http://twitter.com/nodairyfruit) just about everywhere.
+* I'm the in-house Front End Web Developer here at 0ptimus.
+* You can email me anytime: [paul@0ptimus.com](mailto:paul@0ptimus.com).
 
 
 ---
@@ -328,4 +294,3 @@ image retrieved from https://pantheon.io/sites/default/files/History-of-Website-
 * Watch [this video](https://www.youtube.com/watch?v=7_LPdttKXPc) about the Internet.
 * [HTML Cheat Sheet PDF](../pdf/html-cheat-sheet-v1.pdf)
 * Read about CSS Colors
-

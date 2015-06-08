@@ -1,9 +1,3 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-#FEWD - Box Model & More CSS
-
----
-
 ##Agenda
 
 * Review
@@ -336,7 +330,7 @@ article{
 
 ##Box Sizing
 
-That's lot's of math to find the actual width and height... 
+That's lot's of math to find the actual width and height...
 
 ###enter box sizing.
 
@@ -515,4 +509,3 @@ ID (more specific) > Class > Element (less specific)
 ##Good night!
 
 ![](../img/unit_1/dancing_cupcake.gif)
-
