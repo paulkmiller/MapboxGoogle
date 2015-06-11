@@ -16,7 +16,7 @@ header {
   width: auto;
 }
 
-@media (max-width: 767px){
+@media (max-width: 460px){
   .hero{
     max-height: 230px;
   }
