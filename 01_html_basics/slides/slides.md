@@ -262,7 +262,6 @@ image retrieved from https://pantheon.io/sites/default/files/History-of-Website-
 
 ---
 
-![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 ##Cookie Recipe
 
 ---
