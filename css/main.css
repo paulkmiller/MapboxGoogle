@@ -12,7 +12,7 @@ header {
 }
 
 .hero{
-  min-height: 32px;
+  min-height: 250px;
   max-height: 340px;
   width: auto;
 }
