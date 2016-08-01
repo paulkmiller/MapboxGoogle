@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     background: #ECECEC;
     font-family: Lato, Helvetica, Arial, sans-serif;
@@ -58,6 +62,8 @@ strong {
 .content {
     margin: auto;
     padding: 20px;
+    width: 50%;
+    float: left;
 }
 section {
     margin-bottom: 20px;

@@ -1,86 +1,92 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <link href="img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<head>
+    <meta charset="utf-8">
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
-        <title>Google vs Mapbox</title>
+    <title>Google vs Mapbox</title>
 
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="lib/css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="lib/css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
-            <img src="img/icons/googlevsmapbox.jpg" class="hero">
-            <h1>Google Maps API vs Mapbox + OSM</h1>
-            <small><span class="subheader"> Click Sections to Expand </span></small>
-            <br>
-        </header>
+    <header>
+        <img src="img/icons/googlevsmapbox.jpg" class="hero">
+        <h1>Google Maps API vs Mapbox + OSM</h1>
+        <small><span class="subheader"> Click Sections to Expand </span></small>
+        <br>
+    </header>
 
-        <div class="content">
-            <div class="container">
-                <section id="class-01" class="toggleable closed">
-                    <h2><strong>Google Maps</strong></h2>
-                    <div class="section-content">
-                        <h3>Pro's</h3>
-                        <ul class="bullets">
-                            <li>Google Maps is the winner for 99% of use cases</li>
-                            <li>2500 map views for free, charged $0.50 USD per 1,000 additional requests up to 100,000 requests per API per day</li>
-                            <li>Accuracy— Google has access to huge data streams that no ordinary company can afford to access. E.G. ETA is a function of numerous variables like terrain information, average speed data, real time traffic data, weather etc.</li>
-                            <li>Associated Services; Google Maps API is keyed into services such as Places, Business, Streetview, Satellite Imagery, Autocomplete, Google Earth etc.</li>
-                            <li><a href="https://developers.google.com/maps/documentation/">Good Documentation</a></li>
-                            <li><a href="https://developers.google.com/maps/documentation/javascript/examples/">Large Selection of Examples</a></li>
-                            <li>Easily Configurable</li>
-                            <li><a href="https://developers.google.com/maps/documentation/javascript/examples/places-searchbox">Address Input through API</a></li>
-                        </ul>
-                        <h3>Con's</h3>
-                        <ul class="bullets">
-                            <li>Not very flexible with integrating external API’s ( D3.js or Angular, though it can be done, is a pain )</li>
-                            <li>The value of proprietary map data is approaching zero <br><br>Nokia for example bought <a href="https://maps.here.com/?map=38.8251,-90.7289,10,normal">HERE</a> for $8 Billion, recently sold for $3 Billion, i.e. open-source map data is winning against proprietary data, giving the upper hand to open-source now & in the future.<br><br> This calls into question their current pricing structure, along with how they proceed, as the true value of map data continues to fall.</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section id="mapbox" class="toggleable closed">
-                    <h2><strong>Mapbox</strong></h2>
-                    <div class="section-content">
-                      <h3>Pro's</h3>
-                      <ul class="bullets">
-                        <li>Built using OSM <br><span>( hallmark is customization & malleability, maintained by ~2mil members )<span></li>
-                        <li>API is Developers Choice</li>
-                        <li>Tech Support</li>
-                        <li>Easy-To-Use GUI ( Map Studio ) for making Custom Maps / Vectors / Data Visualizations / Injecting Custom SVG’s & Data into existing map styles</li>
-                        <li>Uses WebGL tech, making the animations / loading very smooth</li>
-                        <li>Visually stands-out and very appealing</li>
-                      </ul>
-                      <h3>Con's</h3>
-                      <ul class="bullets">
-                        <li>Will need very specialized design and data goals & needs to justify omitting Google Maps as a solution over Mapbox</li>
-                        <li>Documentation is either exactly right or out of date; depends on which library you use. Mapbox GL has an extensive examples library with code and previews, bringing dev overhead down, but other services ( like the studio ) has limited documentation</li>
-                        <li>Can be difficult to discern what needs to be configured in code and what needs to be done in the Map Stuio</li>
-                        <li>Though OSM is a hallmark of Mapbox as a service, tensions may lead to a fractured relationship; future unclear. Read this excellent <a href="http://www.citylab.com/design/2015/06/who-owns-the-digital-map-of-the-world/396119/">City Lab</a> article for more details.</li>
-                      </ul>
-                      <h3>Arguably Good or Bad</h3>
-                      <ul class="bullets">
-                          <li> 50,000 views/month for $50 w/ 3 custom styles </li>
-                          <li>Direct and arguably sole competitor of Google Maps due to it's configurable nature</li>
-                      </ul>
-                    </div>
-                </section>
+    <div class="content">
+        <section id="googleMaps" class="toggleable closed">
+            <h2><strong>Google Maps</strong></h2>
+            <div class="section-content">
+                <h3>Pro's</h3>
+                <ul class="bullets">
+                    <li>Google Maps is the winner for 99% of use cases</li>
+                    <li>2500 map views for free, charged $0.50 USD per 1,000 additional requests up to 100,000 requests per API per day</li>
+                    <li>Accuracy— Google has access to huge data streams that no ordinary company can afford to access. E.G. ETA is a function of numerous variables like terrain information, average speed data, real time traffic data, weather etc.</li>
+                    <li>Associated Services; Google Maps API is keyed into services such as Places, Business, Streetview, Satellite Imagery, Autocomplete, Google Earth etc.</li>
+                    <li><a href="https://developers.google.com/maps/documentation/">Good Documentation</a></li>
+                    <li><a href="https://developers.google.com/maps/documentation/javascript/examples/">Large Selection of Examples</a></li>
+                    <li>Easily Configurable</li>
+                    <li><a href="https://developers.google.com/maps/documentation/javascript/examples/places-searchbox">Address Input through API</a></li>
+                </ul>
+                <h3>Con's</h3>
+                <ul class="bullets">
+                    <li>Not very flexible with integrating external API’s ( D3.js or Angular, though it can be done, is a pain )</li>
+                    <li>The value of proprietary map data is approaching zero
+                        <br>
+                        <br>Nokia for example bought <a href="https://maps.here.com/?map=38.8251,-90.7289,10,normal">HERE</a> for $8 Billion, recently sold for $3 Billion, i.e. open-source map data is winning against proprietary data, giving the upper hand
+                        to open-source now & in the future.
+                        <br>
+                        <br> This calls into question their current pricing structure, along with how they proceed, as the true value of map data continues to fall.</li>
+                </ul>
             </div>
-        </div>
+        </section>
+    </div>
+    <div class="content">
+        <section id="mapbox" class="toggleable closed">
+            <h2><strong>Mapbox</strong></h2>
+            <div class="section-content">
+                <h3>Pro's</h3>
+                <ul class="bullets">
+                    <li>Built using OSM
+                        <br><span>( hallmark is customization & malleability, maintained by ~2mil members )<span></li>
+              <li>API is Developers Choice</li>
+              <li>Tech Support</li>
+              <li>Easy-To-Use GUI ( Map Studio ) for making Custom Maps / Vectors / Data Visualizations / Injecting Custom SVG’s & Data into existing map styles</li>
+              <li>Uses WebGL tech, making the animations / loading very smooth</li>
+              <li>Visually stands-out and very appealing</li>
+            </ul>
+            <h3>Con's</h3>
+            <ul class="bullets">
+              <li>Will need very specialized design and data goals & needs to justify omitting Google Maps as a solution over Mapbox</li>
+              <li>Documentation is either exactly right or out of date; depends on which library you use. Mapbox GL has an extensive examples library with code and previews, bringing dev overhead down, but other services ( like the studio ) has limited documentation</li>
+              <li>Can be difficult to discern what needs to be configured in code and what needs to be done in the Map Stuio</li>
+              <li>Though OSM is a hallmark of Mapbox as a service, tensions may lead to a fractured relationship; future unclear. Read this excellent <a href="http://www.citylab.com/design/2015/06/who-owns-the-digital-map-of-the-world/396119/">City Lab</a> article for more details.</li>
+            </ul>
+            <h3>Arguably Good or Bad</h3>
+            <ul class="bullets">
+                <li> 50,000 views/month for $50 w/ 3 custom styles </li>
+                <li>Direct and arguably sole competitor of Google Maps due to it's configurable nature</li>
+            </ul>
+          </div>
+      </section>
+    </div>
 
-        <script src="js/jquery-2.1.1.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
