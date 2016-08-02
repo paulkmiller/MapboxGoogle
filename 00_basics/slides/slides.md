@@ -5,7 +5,7 @@
 ## Hi! I'm...
 
 * Not Paul Miller
-* I'm definitenly not a Web Developer at (http://gwp2.herokuapp.com/)[Greater Washington Publishing].
+* I'm definitenly not a Web Developer at [Greater Washington Publishing](http://gwp2.herokuapp.com/).
 * Don't even try emailing me at: [pmiller@gwpi.net](mailto:pmiller@gwpi.net).
 * I swear if you so far as go near my [portfolio site](http://paul-miller.herokuapp.com/), I'll punch my cat.
 
