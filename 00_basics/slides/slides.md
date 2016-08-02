@@ -7,7 +7,7 @@
 * Not Paul Miller
 * I'm definitenly not a Web Developer at [Greater Washington Publishing](http://gwp2.herokuapp.com/).
 * Don't even try emailing me at: [pmiller@gwpi.net](mailto:pmiller@gwpi.net).
-* I swear if you so far as go near my [portfolio site](http://paul-miller.herokuapp.com/), I'll punch my cat.
+* I *swear* if you even go so far as get within 5 miles of my [portfolio site](http://paul-miller.herokuapp.com/), I'll punch my cat.
 
 ---
 
