@@ -1,34 +1,23 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
-
-# Welcome to FEWD!
+# Hows about them there Power-Points we had to do!
 
 ---
 
 ## Hi! I'm...
 
-* Joseph Abrahams
-* I'm creative technologist at [iStrategyLabs](http://istrategylabs.com).
-* You can email me anytime: [joseph@abrahams.io](mailto:joseph@abrahams.io).
-* I'm [@josephabrahams](http://twitter.com/josephabrahams) just about everywhere.
-
---
-
-## Also, meet...
-
-* Nick Grace
-* I'm front end development manager at [JBS International, Inc](http://drupal.jbsinternational.com).
-* You can email me anytime: [nickrgrace@gmail.com](mailto:nickrgrace@gmail.com).
-* I'm [@nickgrace](http://twitter.com/nickgrace) just about everywhere.
+* Not Paul Miller
+* I'm definitenly not a Web Developer at (http://gwp2.herokuapp.com/)[Greater Washington Publishing].
+* Don't even try emailing me at: [pmiller@gwpi.net](mailto:pmiller@gwpi.net).
+* I swear if you so far as go near my [portfolio site](http://paul-miller.herokuapp.com/), I'll punch my cat.
 
 ---
 
 ## Agenda
 
 *   <del>Icebreakers!</del>
-*   Admin Stuff
-*   Intro To Web Development
-*   Coding Environment
-*   Our First Webpage
+*   Make stuff
+*   Do some thing
+*   Raise some roofs
+*   Get Rich Quick in These 9 easy payments of $1mil/yr!
 
 ---
 
@@ -38,7 +27,7 @@
 
 ## Course Updates
 
-*   [Schoology](http://schoology.com)
+*   [codeacademy](http://codeacademy.com)
 *   You should have gotten an email with an access code
 *   We will post assignments, handouts and updates there
 *   You'll turn in your homework as zip files there
@@ -292,172 +281,6 @@ Resources:
 
 * 80s Music  
 * Hard Drugs
-
----
-
-## Coding Environment
-
-What do our computers and a web server have in common?
-
---
-
-![A url](../img/week_00/server-path.png)
-
---
-
-![A finder window](../img/week_00/file-path.png)
-
---
-
-![OMG they're the same](../img/week_00/file-path2.png)
-
---
-
-## Without a backend, the Web is just files in folders on a computer somewhere.
-
-Note:
-Let's be that somewhere!
-
---
-
-We're going to create a folder called **FEWD** on your desktop, and keep all of our course work there.
-
---
-
-In FEWD, add a folder called **class00**. We'll create folders in here for our coding exercises today. You can think of each folder that pertains to a specific exercise or lab as its own website. Essentially, that's what it is.
-
---
-
-All of the files (HTML files, images, stylesheets, etc.) that are related to a given website should go in that site's folder, not someplace else on your computer.
-
---
-
-Go to folder (in your mac's finder)
-
-**cmd+shift+G**
-
---
-
-**~** is your 'home folder'  
-**~/Desktop** is your desktop,  
-**~/Documents** is your documents folder, etc.
-
---
-
-Start typing and hit **tab** to autocomplete!
-![Tab completion in finder](../img/week_01/tab_completion.png)
-
----
-
-## Sublime Text
-
-![Sublime](../img/week_01/sublime.png)
-
---
-
-Sublime is *fantastic* and has an unlimited free trial
-
-http://www.sublimetext.com/3
-
-Open the .dmg file and drag the icon to your applications folder.  
-Windows: Run installer(?)
-
---
-
-Also! Did you know you can put your apps folder in your dock!?
-
-![Apps folder in dock](../img/week_01/apps-folder-in-dock.png)
-
-Right-click and select 'display as folder',
-and 'view content as list'
-
---
-
-## Opening Files in Your Browser
-
-**Let's create our first webpage.**
-
-1.  Make a folder inside `class00` called `hello`. Drag `hello` onto the Sublime Text icon in your dock to open it.
-1.  Right-click on `hello` in the sidebar, select `New File...`.
-1.  Call it index.html (Look at the bottom of the app for the text field where you name the file).
-1.  Open the file and type `<h1>hello, world!</h1>`
-1.  Save the file. (`cmd+s` on mac, `ctrl+s` on windows/linux)
-1.  Right-click `index.html` in the Sublime sidebar and choose `Open In Browser`.
-
----
-
-## The Anatomy of a URL
-
-![URL parts](../img/week_00/url-anatomy.png)
-
---
-
-## Protocol
-
-![URL parts](../img/week_00/url-anatomy.png)
-
-_**noun:** a system of rules that explain the correct conduct and procedures to be followed in formal situations_
-
---
-
-Protocols govern how our computer communicates with a remote service.
-
---
-
-<blockquote class="twitter-tweet" lang="en"><p>The "http://" at the beginning of URLs is a command to the browser. It stands for &quot;head to this place:&quot; followed by two laser-gun noises.</p>&mdash; Brian Sutorius (@bsuto) <a href="https://twitter.com/bsuto/statuses/172070369035956224">February 21, 2012</a></blockquote>
-
---
-
-**H**yper**T**ext **T**ransfer **P**rotocol (**S**ecure)
-
-The internet is just a way of pushing text back and forth between computers.  
-HTTP is a standard for how that text is structured.
-
---
-
-You can also view a webpage using 'file protocol'
-
-`file:///Users/you/Desktop/FEWD/class00/hello/index.html`
-
-note:
-3 slashes instead of 2!?  
-The extra slash tells the browser that the path starts at the root of the hard drive, not where the browser happens to live.
-
---
-
-## Host (or Domain)
-
-![URL parts](../img/week_00/url-anatomy.png)
-
-*   You're probably pretty familiar with these already.
-*   These are mapped to IP Addresses, via something called DNS (Domain Name System).
-
---
-
-## Path
-
-![URL parts](../img/week_00/url-anatomy.png)
-
-*   Represents the resource on the server you're trying to access.
-*   Folders are delimited by slashes.
-
---
-
-## Querystring
-
-![URL parts](../img/week_00/url-anatomy.png)
-
-*   A way to pass extra information not related to the 'resource' to the server.
-*   Not all that relevant to static websites, generally.
-
---
-
-## Hash
-
-![URL parts](../img/week_00/url-anatomy.png)
-
-*   A reference to a particular spot on the page.
-*   We'll learn how to create these spots later.
 
 ---
 
