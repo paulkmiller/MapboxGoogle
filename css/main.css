@@ -116,6 +116,7 @@ section.closed .section-content {
 }
 .section-content {
     background: #FBD334;
+    line-height: 22px;
     color: black;
     padding: 20px 30px;
     overflow: hidden;
